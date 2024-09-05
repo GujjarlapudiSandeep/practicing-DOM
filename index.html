@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <!-- <h1 id="heading">0</h1> -->
+    <!-- <button onclick="increaseFunction()">Increase</button> -->
+    <!-- <button onclick="decreaseFunction()">Decrease</button> -->
+    <h1 id="head">i am working right now</h1>
+    <button id="btn" onclick="overfunction()">submit</button>
+  </body>
+</html>
+<script>
+  // let count = 0;
+  // function increaseFunction() {
+  //   count++;
+  //   document.getElementById("heading").innerText = count;
+  // }
+  // function decreaseFunction() {
+  //   count--;
+  //   document.getElementById("heading").innerText = count;
+  // }
+
+  function overfunction() {
+    document.getElementById("head").innerText = "completed";
+    document.getElementById("btn").style.backgroundColor = "green";
+    document.getElementById("btn").innerText = "over";
+    document.getElementById("btn").style.color = "white";
+    document.getElementById("btn").style.fontSize = "30px";
+  }
+</script>
