@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <p clas="head1">I am para1 tag</p>
+    <h2 class="head1">I am h2 tag</h2>
+    <p>I am para2 tag</p>
+    <div id="box">I am div tag</div>
+    <div class="head1">this is div</div>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+  </body>
+</html>
+<script>
+  let divNew = document.querySelectorAll("div");
+  console.log(divNew);
+
+  let classSelecor = document.querySelectorAll(".head1");
+  console.log(classSelecor);
+
+  // let para = document.getElementsByTagName("p");
+  // console.log(para);
+  // for (let i = 0; i < para.length; i++) {
+  //   console.log(para[i]);
+  // }
+  // let h2 = document.getElementsByTagName("h2");
+  // console.log(h2);
+  // h2[0].style.color = "blue";
+  // h2[0].style.fontSize = "60px";
+</script>
