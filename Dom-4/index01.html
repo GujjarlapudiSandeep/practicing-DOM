@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
+    <link rel="stylesheet" href="./index01.css">
   </head>
   <body>
+    <div>
     <form>
       <label> Item name</label>
       <input type="text" id="name" placeholder="Enter Item Name" />
@@ -15,7 +17,7 @@
       <input type="number" id="Qty" placeholder="Enter Qty" />
       <br />
       <label>Priority</label>
-      <select>
+      <select id="priority">
         <option value="high">High</option>
         <option value="medium">Medium</option>
         <option value="low">Low</option>
@@ -24,16 +26,25 @@
       <input type="submit" />
     </form>
     <table>
-      <thead></thead>
-      <tr>
+      <thead>
+        <tr></tr>
         <th>Item name</th>
         <th>Quantity</th>
         <th>Priority</th>
       </tr>
+      </thead>
+      
 
       <tbody>
         <!-- this data will be coming from javascript -->
+        <!-- <tr>
+          <td>name</td>
+          <td>qty</td>
+          <td>priority</td>
+        </tr>  we have to create this in js -->
       </tbody>
     </table>
+    </div>
   </body>
 </html>
+<script src="./index01.js"></script>
